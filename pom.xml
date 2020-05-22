@@ -51,8 +51,8 @@
                  </execution>
              </executions>
              <configuration>
-             <repository>olga/test</repository>
-                 <tag>testMvnPlugin</tag>
+             <repository>testplugin</repository>
+                 <tag>11</tag>
              </configuration>
             </plugin>
         </plugins>
