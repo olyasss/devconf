@@ -4,5 +4,6 @@ node {
    }
    stage('Cpmpile-Package') {
       sh 'mvn clean install'
+      sh 'mvn docker:build'
    }
 }
