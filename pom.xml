@@ -41,7 +41,7 @@
             <plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>dockerfile-maven-plugin</artifactId>
-                <version>1.4.10</version>
+                <version>1.4.3</version>
                 <executions>
                  <execution>
                      <id>default</id>
@@ -54,6 +54,13 @@
              <repository>testplugin</repository>
                  <tag>11</tag>
              </configuration>
+               <dependencies>
+                    <dependency>
+                        <groupId>javax.activation</groupId>
+                        <artifactId>activation</artifactId>
+                        <version>1.1.1</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
