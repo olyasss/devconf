@@ -4,5 +4,6 @@ node {
    }
    stage('Cpmpile-Package') {
       sh 'mvn clean install'
+      sh 'cp $WORKSPACE/MvnTargetTest/target/*.jar /opt/mvnplugintest'
    }
 }
